@@ -1,0 +1,63 @@
+.nav-drawer {
+    width: 209px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+  }
+  
+  .tabs {
+    margin-top: 20px;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    background-color: #444;
+  }
+  
+  .tab.active {
+    background-color: #555;
+  }
+  
+  .nav-drawer .sub-tabs {
+    padding-left: 20px;
+  }
+  
+  .nav-drawer .sub-tabs .tab {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .nav-drawer .sub-tabs .tab:hover {
+    background-color: #f0f0f0;
+  }
+
+.tab {
+    display: flex;
+    align-items: center;
+}
+
+.tab-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.tab-content {
+    display: flex;
+    align-items: center;
+}
+
+.ts-icon {
+    width: 128px; /* Adjust the width as needed */
+    height: 128px; /* Adjust the height as needed */
+    margin: auto; /* Center the icon horizontally */
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
